@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<link rel="stylesheet" href="style.css" />
+
+<body>
+    <div class="">
+        <section id="home" class="flex">
+            <div class="demo container">
+                <div class="content">
+                    <div id="large-header" class="large-header">
+                        <canvas id="demo-canvas"></canvas>
+                        <!--home page content-->
+                        <div class="main-title">
+                            Hey Guys! I am,
+                            <span class="highlight">Priya Bihani,</span>
+                            <br /> a full stack web developer
+                            <!--view button-->
+                            <a class="button viewmywork" href="#projects">
+                  View My Work
+                  <i id="arrow" class="fas fa-arrow-right arrow"></i>
+                </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <nav class="animation-element">
+            <li><a class="page-link" href="#home">Home</a></li>
+            <li><a class="page-link" href="#about">About</a></li>
+            <li><a class="page-link" href="#projects">Projects</a></li>
+            <li><a class="page-link" href="#contact">Contact</a></li>
+        </nav>
+
+        <section id="about" class="">
+            <header class="header animation-element">
+                About
+            </header>
+            <div class="about-container">
+                <div class="about-item animation-element">
+                    <!-- <div class="about-image-text-container"> -->
+                    <div>
+                        <img src="DSC_0154 - Copy - Copy.JPG" />
+                    </div>
+                    <div class="about-image-text-item">
+                        Hey i am a full stack developer,
+                        <br /> worked as freelancer on many projects. <br /> I like working on new innovative projects <br /> and challenge my limits.
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <div class="about-item">
+                    <div class="skills-bar animation-element">
+                        <div class="bar-item">
+                            <div class="barLabel">HTML</div>
+                            <div class="bar animation-element"></div>
+                            <span class="skill-val">90%</span>
+                        </div>
+                        <div class="bar-item">
+                            <div class="barLabel">CSS</div>
+                            <div class="bar animation-element"></div>
+                            <span class="skill-val">85%</span>
+                        </div>
+                        <div class="bar-item">
+                            <div class="barLabel">Javascript</div>
+                            <div class="bar animation-element"></div>
+                            <span class="skill-val">85%</span>
+                        </div>
+                        <div class="bar-item">
+                            <div class="barLabel">ReactJS</div>
+                            <div class="bar animation-element"></div>
+                            <span class="skill-val">75%</span>
+                        </div>
+                        <div class="bar-item">
+                            <div class="barLabel">NodeJS</div>
+                            <div class=" bar animation-element"></div>
+                            <span class="skill-val">75%</span>
+                        </div>
+                        <div class="bar-item">
+                            <div class="barLabel">MongoDB</div>
+                            <div class="bar animation-element"></div>
+                            <span class="skill-val">60%</span>
+                        </div>
+                        <div class="bar-item">
+                            <div class="barLabel">Firebase</div>
+                            <div class="bar animation-element"></div>
+                            <span class="skill-val">70%</span>
+                        </div>
+                    </div>
+                    <div id="box"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="">
+            <header class="header animation-element">
+                Projects
+            </header>
+            <!-- <div class="projects-container"> -->
+            <div class="project-card-container">
+                <img class="animation-element" src="./earth.jpeg" />
+                <img class="animation-element" src="./720s.png" />
+                <img class="animation-element" src="./720s.png" />
+                <img class="animation-element" src="./720s.png" />
+                <img class="animation-element" src="./720s.png" />
+                <!-- <img class="animation-element" src="./earth.jpeg">
+                <img class="animation-element" src="./720s.png">
+                <img class="animation-element" src="./mac_os_x_apple_mavericks_waves_wave_94219_2560x1600.jpg">
+                <img class="animation-element" src="city_vector_panorama_119914_2560x1600.jpg"> -->
+            </div>
+            <!-- </div> -->
+        </section>
+        <div class="bottom-content">
+            <section id="contact" class="contact">
+                <svg preserveAspectRatio="none" viewBox="0 0 100 102" height="75" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svgcolor-light">
+            <path
+              d="M0 0 L50 100 L100 0 Z"
+              fill="#f7f7ff"
+              stroke="white"
+            ></path>
+          </svg>
+
+                <div class="contact-heading">
+                    CONTACT
+                </div>
+                <div class="question">
+                    Have a question? Ping me...
+                </div>
+
+                <div class="form">
+                    <form action="https://formspree.io/xleborkv" method="POST" class="message-form" data-animation="pop-in" data-delay=".5s" id="contact-form">
+                        <div class="form-item-container">
+                            <input placeholder="Name" class="message-input" type="text" name="name" required />
+                        </div>
+                        <div class="form-item-container">
+                            <input placeholder="Enter email" class="message-input" type="email" name="email" required />
+                        </div>
+                        <div class="form-item-container">
+                            <textarea class="message-input" placeholder="Your Message" type="text" name="message"></textarea>
+                        </div>
+                        <input class="submit-button" type="submit" id="submit" value="SUBMIT" />
+                    </form>
+                </div>
+            </section>
+
+            <section class="footer">
+                <div class="">
+                    <a href=""><i class="footer-arrow fas fa-angle-double-up"></i></a>
+                </div>
+                <div class="contact-icons">
+                    <a id="insta" target="_blank" href="http://instagram.com"><i class="fab icon fa-instagram"></i
+            ></a>
+                    <a target="_blank" href="http://github.com"><i class="fab icon fa-github"></i
+            ></a>
+                    <a target="_blank" href="http://gmail.com"><i class="far icon fa-envelope"></i
+            ></a>
+                    <a target="_blank" href="http://twitter.com"><i class="fab icon fa-twitter"></i
+            ></a>
+                </div>
+
+                <div class="footnote">
+                    <span class="foot-name">Pia Bihani</span
+            ><span class="rights">
+              &copy;2020
+            </span>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js"></script>
+    <script src="https://kit.fontawesome.com/086b22f017.js" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
